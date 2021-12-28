@@ -1,0 +1,13 @@
+body {
+    background:white;
+}
+
+div {
+    border-style: solid;
+    padding: 10px;
+    background: gray;
+}
+
+h3 {
+    color:maroon
+}
