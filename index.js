@@ -34,9 +34,6 @@ function incrementTotal() {
                 player1 = true;
             }
 
-            else {
-                messageEl.textContent = "Please pick a number between 1 and 9";
-            }
         
             if(total === 100 && player1 === false) {
                 messageEl.textContent = "Player 1, you have won the game!"
@@ -47,9 +44,9 @@ function incrementTotal() {
             }
             }
         } 
+    
+      else {
+                messageEl.textContent = "Please pick a number between 1 and 9";
+            }
         
 }
-
-instructionsEl.addEventListener("click", function () {
-    instructionsP.textContent = "The goal of this game is to be the first player to reach 100.  Two players take turns adding whole numbers between 1 and 9. The person who reaches 100 first, wins the game."
-})
